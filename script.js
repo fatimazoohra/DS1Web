@@ -85,6 +85,7 @@ function passe(){
 	}
 	activeJ1.classList.toggle("actif");
 	activeJ2.classList.toggle("actif");
+	// if
 
 }
 function joueurSuivant(){
