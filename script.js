@@ -77,13 +77,14 @@ function lancer(){
 }
 
 function passe(){
-
 	if(joueurActif==0){
 		joueurActif=1;
 	}
 	else{
 		joueurActif=0;
 	}
+	activeJ1.classList.toggle("actif");
+	activeJ2.classList.toggle("actif");
 
 }
 function joueurSuivant(){
@@ -92,6 +93,7 @@ function joueurSuivant(){
 	console.log(joueurActif);
 	passe();
 	console.log(joueurActif);
+
 }
 
 
